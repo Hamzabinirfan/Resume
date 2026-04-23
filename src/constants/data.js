@@ -66,7 +66,7 @@ export const projects = [
       "An intelligent recruitment tool that scores resumes against job descriptions using TF-IDF vectorization and Cosine Similarity. Features a seamless UI with multi-file uploads and real-time content parsing.",
     tech: ["Python", "Streamlit", "NLP", "Scikit-learn", "PyPDF2", "Jupyter Notebook"],
     github: "#",
-    live: "#",
+    live: "https://ai-resume-analyzer-hamza.streamlit.app/",
   },
   {
     title: "Real-Time Object Detection System",
