@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa"
+import { HiArrowDown as HiDownload } from "react-icons/hi"
 import { HiArrowDown } from "react-icons/hi"
 import GradientText from "./shared/GradientText"
 import { personal } from "../constants/data"
@@ -107,6 +108,14 @@ export default function Hero() {
             className="px-8 py-3 rounded-full font-semibold glass border border-white/10 text-white hover:border-white/30 transition-colors min-h-[44px] flex items-center gap-2"
           >
             Contact Me
+          </a>
+          <a
+            href="/Resume/resume.pdf"
+            download="Hamza_Ansari_Resume.pdf"
+            className="px-8 py-3 rounded-full font-semibold glass border border-white/10 text-white hover:border-brand-purple/50 transition-colors min-h-[44px] flex items-center gap-2"
+          >
+            <FaDownload size={14} />
+            Download CV
           </a>
         </motion.div>
 
