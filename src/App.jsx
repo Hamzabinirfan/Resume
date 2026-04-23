@@ -1,19 +1,23 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import About from "./components/About"
+import Stats from "./components/Stats"
 import Skills from "./components/Skills"
 import Experience from "./components/Experience"
 import Projects from "./components/Projects"
 import EducationPublications from "./components/EducationPublications"
 import Contact from "./components/Contact"
+import ScrollProgress from "./components/ScrollProgress"
 
 function App() {
   return (
     <div className="min-h-screen bg-dark text-white">
+      <ScrollProgress />
       <Navbar />
       <main>
         <Hero />
         <About />
+        <Stats />
         <Skills />
         <Experience />
         <Projects />
